@@ -1,23 +1,18 @@
-/*
- * Globals
- */
-/*.container-custom-min-height{*/
-    /*min-height: 107.3vh;*/
-/*}*/
-footer{
-    background: #000000;
-    padding: 3rem;
-
+body{background:#f9ffff;}
+.color-blue{
+    color: #45c0ff;
 }
-footer li a,footer p{
-    color: #fff;
+.color-green{
+    color:#00897b
 }
-
+.font-medium{
+    font-size:1.6rem;
+}
 /* Links */
 a,
 a:focus,
 a:hover {
-    color: #555;
+    color: #00b0ff;
 }
 
 /* Custom default button */
@@ -35,8 +30,8 @@ a:hover {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #C1403D;
-    border: 1px solid #C1403D;
+    background-color: #009687;
+    border: 1px solid #009687;
 }
 
 .sticky .main-nav .btn:hover { color: #fff !important;
@@ -46,21 +41,14 @@ input[type=submit]:active {
 
 }
 
-/*
- * Base structure
- */
-
-/*html,*/
-/*body {*/
-    /*height: 100%;*/
-
-/*}*/
 
 .container-custom{
     max-width: 1280px;
 }
 
-
+.padding-top-success{
+    padding-top:16%;
+}
 body {
     display: -ms-flexbox;
     display: flex;
@@ -74,12 +62,10 @@ body {
 .btn-green {
     background: #00897b;
     color: #ffffff;
-    border-radius: 0;
 }
 .btn-green-outline {
     background: #ffffff;
     color: #00897b;
-    border-radius: 0;
     border: 1px solid #00897b;
 }
 .color-orange{
@@ -89,12 +75,12 @@ body {
 /*login page*/
 
 .login-top-padding{
-    padding-top: 7%;
+    padding-top: 10%;
 }
 
-.login-logo{
-    width: 58%;
-    height: auto;
+.login-header p{
+    font-size: 1.5rem;
+    font-weight:300;
 }
 
 .login-logo img{
@@ -105,312 +91,8 @@ body {
     display: inline-flex;
 }
 
-.option-section-left-item{
- padding-left: 26%;
-}
-
-.h2-new {
-    font-size: 180%;
-    word-spacing: 2px;
-    justify-content: center;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-    color: #C1403D;
-}
-
-.login-box-margin{
-    margin-bottom: 5%;
-}
-
-.login-font-size{
-    font-size: 80%;
-}
-
-.display-4-custom{
-    font-size: 1.1rem;
-    font-weight: 300;
-    line-height: 1.2;
-    color: #c1dcc8;
-}
-
-.font-85{
-
-    /*font-size: 85%;*/
-}
-
-/*
- * registration page
- */
-
-.logo {
-    height: auto;
-    width: 50%;
-    /*float: left;*/
-    /*margin-top: 20%;*/
-}
-
-.logo img{
-    height: auto;
-    width: 38%;
-    margin-bottom: 2%;
-    margin-right: 3%;
-    margin-top: 3.5%;
-}
-
-.logo-login img{
-    height: auto;
-    width: 68%;
-    margin-bottom: 2%;
-    margin-right: 3%;
-    margin-top: 3.5%;
-}
-
- .btn-lg {
-    padding: .75rem 1.25rem;
-    font-weight: 700;
-}
-.input-group-text-custom{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: .375rem .75rem;
-    margin-bottom: 0;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #00897b;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #ffffff;
-    border: 1px solid #f1f3f6;
-    }
-.registration-marketing{
-    /*background-image:linear-gradient(rgba(0, 101, 27, 0.69), rgba(0, 41, 16, 0.9)),url(/img/regi-background.jpg);*/
-    /*background-size: cover;*/
-    /*background-attachment: fixed;*/
-    /*background-position: 205% 37%;*/
-    /*background-repeat: no-repeat;*/
-    /*height: auto;*/
-}
-
-.main-marketing-text{
-    margin-top: 15%;
-    color: #555;
-}
-.bg-ash{
-   background-color: #fbfbfb;
-}
-.big-line{
-    font-weight: 500;
-    font-size: 155%;
-}
-.small-line{
-    margin-top: 0;
-    font-size: 100%;
-}
-.sign-up-graphic{
-    width: 80%;
-}
-.sign-up-graphic img{
-    width: 100%;
-}
-/*.place-holder-padding{*/
-    /*padding-left: 3% !important;*/
-/*}*/
-/*
- * Footer
- */
-.mastfoot {
-    color: rgba(255, 255, 255, .5);
-}
-.grey-text{
-    color: #909090;
-}
-
-.orange-text{
-    color: #C1403D;
-}
-
-.full-width{
-    width: 100%;
-    margin: 10%;
-
-}
-.colo-blue{
-    color:#56b4e4;
-}
-
-.registration-form{
-    justify-content: center;
-    align-items: center;
-    /*background-color: #f8ffb2;*/
-}
-
-.registration-form-background{
-    background-image:linear-gradient(rgba(251, 251, 251, 0.5), rgba(251, 251, 251, 0.5)),url(/img/regi-cover.svg);
-    background-repeat: no-repeat;
-    background-position: 32% 50%;
-    background-size: contain;
-}
-
-.form-control{
-    width: 100%;
-}
-.sign-up ::placeholder{
-
-    color: #adadad;
-    font-size: 92%;
-}
-
-.btn-signup-custom{
-    padding: 7px 32px;
-}
-.password-input input[type=password]{
-    margin-bottom: 0;
-}
-
-.password-input p{
-    color: #949494;
-    font-size: 85%;
-}
-
-.cover-heading{
-   color: #C1403D;
-}
-
-/*New user payment*/
-
-.card-one{
-    border: 1px solid #ddd;
-    /*border-radius: 0px;*/
-    padding: 3%;
-}
-
-.card-one-inside{
-    border: 1px solid #ddd;
-    /*border-radius: 0px;*/
-}
-.card-title-custom{
-    font-size: 95%;
-    color: #637381;
-}
-
-.list-group-item-custom{
-    padding: 9px 18px;
-}
-
-.list-group-item-selected {
-    background-color: #ebf5fa;
-}
-.custom-label{
-    font-size: 90%;
-    padding-left: 1%;
-    margin: 0;
-}
-
-input[type=text] {
-
-    padding: 1%;
-
-}
-
-.plan-details-section{
-    background-color: #F9FAFB;
-    padding: 1%;
-}
-
-.billing-info-title{
-    font-size: 85%;
-}
-
-.left-card-custom-title{
-    font-size: 150%;
-}
-
-.left-card-custom-subtitle{
-    font-size: 95%;
-}
-
-.custom-left-card-text{
-
-    font-size: 90%;
-
-}
-
-.color-green{
-    color: #00c35a;
-}
-
-.list-group-item-custom{
-    display: inline-flex;
-}
-
-.content-list{
-    font-size: 95%;
-}
-.half-col-group{
-   display: inline-flex;
-}
-.btn-plan:link, .btn-plan:visited, .btn-plan {
-    background-color: #1e824c;
-    border: 1px solid #1e824c;
-    color: #fff;
-    margin-right: 0px;
-    border-radius: 0;
-    width: 100%;
-    font-weight: 400;
-}
-.payment-mode{
-    border: 1px solid #ddd;
-}
-.number-input{
-    display: inline-flex;
-}
-.btn-number-custom{
-    border-radius: 0;
-}
-.input-number-custom{
-    padding: 10% !important;
-}
-.form-label-custom{
-    font-size: 100%;
-}
-
-.billing-info-title{
-    font-weight: 400;
-    font-size: 100%;
-}
-.main-cards{
-    display: inline-flex;
-}
-
-.main-box-body{
-    margin-left: 2%;
-    margin-right: 4%;
-}
-
 /*queries*/
 @media only screen and (max-width: 425px){
-    .custom-display-block{
-        display: block !important;
-    }
-
-    .main-marketing-text {
-         padding-top: 5%;
-        margin-top:0;
-    }
-
-    .full-width {
-        width: 100%;
-        margin-top: 10% !important;
-        margin: 0;
-    }
-
-    .big-line {
-        font-weight: 500;
-        font-size: 160%;
-    }
 
     .login-top-padding{
         padding-top: 20%;
