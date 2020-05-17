@@ -16,12 +16,58 @@
 
      if($email && $password){
          if(validateEmail($email)){
-             $message = "Successfully Logged in";
+             $message = '<!doctype html>'.
+                 '<html>'.
+                 '<head>'.
+                 '<meta charset="utf-8">'.
+                 '<title> Login Success</title>'.
+                 '<link href="bootstrap-4.min.css" rel="stylesheet" type="text/css">'.
+                 '<link href="cover.css" rel="stylesheet" type="text/css">'.
+                 '</head>'.
+                 '<body style="min-height:100vh;">'.
+
+                 '<div class="container bg-white">'.
+                 '<div class="row">'.
+                 '<div class="col-md-12">'.
+                 '<div class="row padding-top-success">'.
+                 '<div class="col-md-12 text-center">'.
+                 '<img src="success.jpeg" alt="">'.
+                 '<P class="text-center font-medium text-success">You are successfully logged in</P>'.
+                 '</div>'.
+                 '</div>'.
+                 '</div>'.
+                 '</div>'.
+                 '</div>'.
+                 '</body>'.
+                 '<html>';
          }
          else{
-             $message = "Your email is not valid";
+             $message = '<!doctype html>'.
+                 '<html>'.
+                 '<head>'.
+                 '<meta charset="utf-8">'.
+                 '<title> Login Success</title>'.
+                 '<link href="bootstrap-4.min.css" rel="stylesheet" type="text/css">'.
+                 '<link href="cover.css" rel="stylesheet" type="text/css">'.
+                 '</head>'.
+                 '<body style="min-height:100vh;">'.
+
+                 '<div class="container bg-white">'.
+                 '<div class="row">'.
+                 '<div class="col-md-12">'.
+                 '<div class="row padding-top-success">'.
+                 '<div class="col-md-12 text-center">'.
+                 '<img src="success.jpeg" alt="">'.
+                 '<P class="text-center font-medium text-success">Your Email is not valid</P>'.
+                 '</div>'.
+                 '</div>'.
+                 '</div>'.
+                 '</div>'.
+                 '</div>'.
+                 '</body>'.
+                 '<html>';
          }
      }
 
- echo "<p style='color:red'>$message</p>";
+ echo $message;
 ?>
