@@ -31,7 +31,7 @@
                  '<div class="col-md-12">'.
                  '<div class="row padding-top-success">'.
                  '<div class="col-md-12 text-center">'.
-                 '<img src="success.jpeg" alt="">'.
+                 '<img class="success-image" src="success.jpeg" alt="">'.
                  '<P class="text-center font-medium text-success">You are successfully logged in</P>'.
                  '</div>'.
                  '</div>'.
@@ -57,8 +57,10 @@
                  '<div class="col-md-12">'.
                  '<div class="row padding-top-success">'.
                  '<div class="col-md-12 text-center">'.
-                 '<img src="success.jpeg" alt="">'.
-                 '<P class="text-center font-medium text-success">Your Email is not valid</P>'.
+                 '<a class="text-decoration-none" href="login.php">'.
+                 '<img class="success-image" src="failed.png" alt="">'.
+                 '<P class="text-center font-medium text-danger pt-3">Your Email is not valid</P>'.
+                 '</a>'.
                  '</div>'.
                  '</div>'.
                  '</div>'.

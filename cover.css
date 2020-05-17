@@ -25,6 +25,10 @@ a:hover {
     border: .05rem solid #fff;
 }
 
+img.success-image{
+    width:225px;
+}
+
 
 .btn:hover,
 .btn:active,
@@ -33,7 +37,6 @@ input[type=submit]:active {
     background-color: #009687;
     border: 1px solid #009687;
 }
-
 .sticky .main-nav .btn:hover { color: #fff !important;
 
     background-color: #C1403D;
